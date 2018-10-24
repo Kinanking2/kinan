@@ -3,7 +3,10 @@ const client = new Discord.Client()
 const prefix = ''
 
 
-
+client.on('ready',  () => {
+            console.log(`online`);
+    client.user.setGame("يا ورعان سويت بوت", "https://www.twitch.tv/idkg");
+});  
 
 
 
