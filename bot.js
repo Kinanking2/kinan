@@ -5,7 +5,7 @@ const prefix = '!'
 
 client.on('ready',  () => {
             console.log(`online`);
-    client.user.setGame("يا ورعان سويت بوت", "https://www.twitch.tv/idkg");
+    client.user.setGame("created py kinanking", "https://www.twitch.tv/idkg");
 });  
 
 
