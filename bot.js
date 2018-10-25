@@ -20,9 +20,20 @@ const gif = require("gif-search");
 
 const client = new Discord.Client({disableEveryone: true});
 
-const prefix = "#";
+const prefix = "-";
 /////////////////////////
 ////////////////////////
+
+
+
+const prefix = "-"
+client.on("message", message => {
+
+  if (message.content.startsWith(prefix + "avatar")) {
+    message.channel.send(message.author.avatarURL);
+  };
+ })
+
 
 
 
